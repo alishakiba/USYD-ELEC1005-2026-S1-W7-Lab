@@ -1,0 +1,32 @@
+{
+  "e385d82a-34fa-4b02-879a-da1b2f613e28": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1769/1.0.1769.4361/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://unisyd-my.sharepoint.com/personal/ali_shakiba_sydney_edu_au": {
+        "dataSources": {
+          "ELEC1005-Lab-Habits": {
+            "tableName": "defb1bf0-0ac7-4176-84b7-20e6a0d77de8"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ELEC1005-Lab-Habits"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e385d82a-34fa-4b02-879a-da1b2f613e28"
+  }
+}
